@@ -14,7 +14,7 @@ txt = "I am Rohith G Krishna"
 
 print(re.findall("[a-z]",txt))
 
-txt = "I am about to be 28 years"
+txt = "I am about tobe  28 years tonight"
 
 print(re.findall("\d+",txt))
 
@@ -32,3 +32,8 @@ if x:
   print("Yes, the string ends with 'world'")
 else:
   print("No match")
+
+
+print(re.findall("tox*",txt))
+
+print(re.findall("to{1}",txt))
